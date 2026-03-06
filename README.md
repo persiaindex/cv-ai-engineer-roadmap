@@ -24,3 +24,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [x] Repo created
 - [x] Virtual environment created
 - [x] Initial script added
+
+## Day 2 status
+- [x] `src/core` package created
+- [x] `paths.py`, `config.py`, `logger.py`, and `main.py` added
+- [x] `app.json` and `app.yaml` created
+- [x] `python scripts/run_core.py` works
+- [x] first test passes
+- [x] changes committed and pushed to GitHub
