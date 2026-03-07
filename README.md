@@ -33,9 +33,16 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [x] first test passes
 - [x] changes committed and pushed to GitHub
 
-### Day 3 status
+## Day 3 status
 - [x] `src/domain` package created
 - [x] machine, feeder, inspection, and alert classes added
 - [x] `python scripts/run_domain.py` works
 - [x] domain tests pass
+- [x] changes committed and pushed to GitHub
+
+## Day 4 status
+- [x] `src/vision` package created
+- [x] image and signal utilities added
+- [x] `python scripts/run_vision.py` works
+- [x] vision tests pass
 - [x] changes committed and pushed to GitHub
