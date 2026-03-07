@@ -32,3 +32,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [x] `python scripts/run_core.py` works
 - [x] first test passes
 - [x] changes committed and pushed to GitHub
+
+### Day 3 status
+- [x] `src/domain` package created
+- [x] machine, feeder, inspection, and alert classes added
+- [x] `python scripts/run_domain.py` works
+- [x] domain tests pass
+- [x] changes committed and pushed to GitHub
