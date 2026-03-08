@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: public.ecr.aws/docker/library/postgres:17
+    container_name: cv_ai_postgres
+    environment:
+      POSTGRES_DB: cv_ai_db
+      POSTGRES_USER: cv_ai_user
+      POSTGRES_PASSWORD: cv_ai_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

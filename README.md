@@ -46,3 +46,17 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [x] `python scripts/run_vision.py` works
 - [x] vision tests pass
 - [x] changes committed and pushed to GitHub
+
+## Day 5 status
+- [] 
+
+## Day 6 status
+- [X] PostgreSQL container is running
+- [X] schema file created
+- [X] seed file created
+- [X] query file created
+- [X] tables created successfully
+- [X] sample data inserted
+- [X] select/update/delete queries tested
+- [X] notes written in `docs/day06_notes.md`
+- [X] changes committed and pushed
