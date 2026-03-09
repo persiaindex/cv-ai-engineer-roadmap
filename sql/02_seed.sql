@@ -17,4 +17,4 @@ INSERT INTO inspections (inspection_id, machine_id, defect_score, image_path, st
 INSERT INTO alerts (alert_id, source_type, source_id, message, severity, is_open) VALUES
 ('A-400', 'feeder', 'F-200', 'Feeder fill level is below threshold.', 'medium', TRUE),
 ('A-401', 'inspection', 'I-300', 'Defect score exceeded threshold.', 'high', TRUE),
-('A-402', 'inspection', 'I-303', 'Repeated defect detected.', 'high', TRUE);
+('A-402', 'inspection', 'I-303', 'Repeated defect detected.', 'high', TRUE); 

@@ -23,6 +23,11 @@ UPDATE feeders
 SET fill_level = 35.00
 WHERE feeder_id = 'F-200';
 
+-- Verify the feeder update
+SELECT feeder_id, fill_level
+FROM feeders
+WHERE feeder_id = 'F-200';
+
 -- Close an alert
 UPDATE alerts
 SET is_open = FALSE
