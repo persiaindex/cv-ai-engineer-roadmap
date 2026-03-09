@@ -67,3 +67,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] CASE turns raw values into business labels
 - [X] WITH creates readable intermediate query steps
 - [X] ROW_NUMBER() helps select the latest row per machine
+
+## Day 8 status
+- [X] `apps/api/config/`
+- [X] `apps/api/core/`
+- [X] Django installed in `requirements.txt`
+- [X] initial migrations applied
+- [X] admin login working
+- [X] notes in `docs/day08_notes.md`
