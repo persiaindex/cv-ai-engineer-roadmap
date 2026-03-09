@@ -90,3 +90,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] fixture loads successfully
 - [X] sample data visible in admin
 - [X] notes in `docs/day10_notes.md`
+
+## Day 11 status
+- [X] DRF installed
+- [X] serializers added
+- [X] viewsets added
+- [X] API routes working
+- [X] JSON endpoints visible in browser
+- [X] notes in `docs/day11_notes.md`
