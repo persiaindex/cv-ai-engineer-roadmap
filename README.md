@@ -75,3 +75,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] initial migrations applied
 - [X] admin login working
 - [X] notes in `docs/day08_notes.md`
+
+## Day 9 status
+- models added in `apps/api/core/models.py`
+- admin registration in `apps/api/core/admin.py`
+- migrations created and applied
+- sample objects created in Django admin
+- notes in `docs/day09_notes.md`
