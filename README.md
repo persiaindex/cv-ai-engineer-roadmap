@@ -60,3 +60,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] select/update/delete queries tested
 - [X] notes written in `docs/day06_notes.md`
 - [X] changes committed and pushed
+
+## Day 7 status
+- [X] JOIN combines related tables
+- [X] GROUP BY creates KPIs
+- [X] CASE turns raw values into business labels
+- [X] WITH creates readable intermediate query steps
+- [X] ROW_NUMBER() helps select the latest row per machine
