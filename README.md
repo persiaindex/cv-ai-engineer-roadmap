@@ -128,3 +128,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] alert close endpoint works
 - [X] API tests added in `tests_api.py`
 - [X] notes in `docs/day15_notes.md`
+
+## Day 16 status
+- [X] `apps/web` created with Vite React TypeScript
+- [X] frontend runs in browser
+- [X] starter page replaced
+- [X] optional first reusable component added
+- [X] notes in `docs/day16_notes.md`
