@@ -113,3 +113,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] API read access works without login
 - [X] write access is blocked without login
 - [X] token endpoint works
+
+## Day 14 status
+- [X] `drf-spectacular` installed
+- [X] `core/exceptions.py` added
+- [X] custom error format working
+- [X] schema endpoint working
+- [X] Swagger and ReDoc pages working
+- [X] notes in `docs/day14_notes.md`
