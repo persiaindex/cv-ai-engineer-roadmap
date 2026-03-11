@@ -106,3 +106,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] validation rules added
 - [X] test URLs working
 - [X] notes in `docs/day12_notes.md`
+
+## Day 13 status
+- [X] JWT package installed
+- [X] token routes added
+- [X] API read access works without login
+- [X] write access is blocked without login
+- [X] token endpoint works
