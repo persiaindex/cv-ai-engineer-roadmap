@@ -1,9 +1,9 @@
 [
   {
     "model": "core.machine",
-    "pk": 1,
+    "pk": 10,
     "fields": {
-      "machine_id": "M-300",
+      "machine_id": "M-106",
       "name": "Fixture Machine",
       "location": "Aachen Plant 1",
       "is_active": true,
@@ -12,9 +12,9 @@
   },
   {
     "model": "core.feeder",
-    "pk": 1,
+    "pk": 10,
     "fields": {
-      "feeder_id": "F-300",
+      "feeder_id": "F-206",
       "machine": 1,
       "material_type": "powder",
       "fill_level": 22.0,
@@ -23,23 +23,23 @@
   },
   {
     "model": "core.inspection",
-    "pk": 1,
+    "pk": 10,
     "fields": {
-      "inspection_id": "I-300",
+      "inspection_id": "I-305",
       "machine": 1,
-      "defect_score": 0.76,
-      "image_path": "data/raw/fixture.jpg",
+      "defect_score": 1.76,
+      "image_path": "data/raw/fixture1.jpg",
       "status": "defective",
       "created_at": "2026-03-09T09:20:00Z"
     }
   },
   {
     "model": "core.alert",
-    "pk": 1,
+    "pk": 10,
     "fields": {
-      "alert_id": "A-300",
+      "alert_id": "A-406",
       "source_type": "inspection",
-      "source_id": "I-300",
+      "source_id": "I-301",
       "message": "Fixture defect alert.",
       "severity": "high",
       "is_open": true,

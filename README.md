@@ -98,3 +98,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] API routes working
 - [X] JSON endpoints visible in browser
 - [X] notes in `docs/day11_notes.md`
+
+## Day 12 status
+- [X] `django-filter` installed
+- [X] pagination enabled
+- [X] filters/search/ordering enabled
+- [X] validation rules added
+- [X] test URLs working
+- [X] notes in `docs/day12_notes.md`
