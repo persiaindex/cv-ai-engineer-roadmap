@@ -121,3 +121,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] schema endpoint working
 - [X] Swagger and ReDoc pages working
 - [X] notes in `docs/day14_notes.md`
+
+## Day 15 status
+- [X] `core/services.py` added
+- [X] dashboard summary endpoint works
+- [X] alert close endpoint works
+- [X] API tests added in `tests_api.py`
+- [X] notes in `docs/day15_notes.md`
