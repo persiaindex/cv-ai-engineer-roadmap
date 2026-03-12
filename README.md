@@ -135,3 +135,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] starter page replaced
 - [X] optional first reusable component added
 - [X] notes in `docs/day16_notes.md`
+
+## Day 17 status
+- [X] reusable components added
+- [X] mock data added
+- [X] `useState` used at least once
+- [X] machine and alert sections rendered
+- [X] notes in `docs/day17_notes.md`
