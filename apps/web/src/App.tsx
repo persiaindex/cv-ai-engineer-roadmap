@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import MachineList from "./components/MachineList"
 import AlertList from "./components/AlertList"
+import MachineForm from "./components/MachineForm"
 import { alerts, machines } from "./data/mockData"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <MachineList machines={machines} />
       <AlertList alerts={alerts} />
+      <MachineForm />
     </div>
   )
 }

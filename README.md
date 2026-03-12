@@ -142,3 +142,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `useState` used at least once
 - [X] machine and alert sections rendered
 - [X] notes in `docs/day17_notes.md`
+
+## Day 18 status
+- [X] `MachineForm.tsx` added
+- [X] form state works
+- [X] validation messages work
+- [X] success message works
+- [X] notes in `docs/day18_notes.md`
