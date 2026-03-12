@@ -1,4 +1,9 @@
-import type { Machine } from "../data/mockData"
+type Machine = {
+  id: number
+  machine_id: string
+  name: string
+  location: string
+}
 
 type MachineTableProps = {
   machines: Machine[]
@@ -19,7 +24,7 @@ function MachineTable({ machines }: MachineTableProps) {
         <tbody>
           {machines.map((machine) => (
             <tr key={machine.id}>
-              <td style={{ padding: "0.5rem 0" }}>{machine.machineId}</td>
+              <td style={{ padding: "0.5rem 0" }}>{machine.machine_id}</td>
               <td>{machine.name}</td>
               <td>{machine.location}</td>
             </tr>

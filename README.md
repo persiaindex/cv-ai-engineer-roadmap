@@ -157,3 +157,12 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] dashboard page created
 - [X] machines page created
 - [X] notes in `docs/day19_notes.md`
+
+## Day 20 status
+- `axios` installed
+- `lib/api.ts` added
+- `hooks/useMachines.ts` added
+- Machines page connected to Django
+- loading state works
+- error state works
+- notes in `docs/day20_notes.md`

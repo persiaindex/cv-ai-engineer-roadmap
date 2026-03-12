@@ -24,9 +24,7 @@ SECRET_KEY = 'django-insecure-zu0swgsx)*#fan*3r8$dl8i)t_u0c4$jof)o_5uzd%^-uu-8g-
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 ALLOWED_HOSTS = []
-
 
 
 # Application definition
@@ -42,6 +40,7 @@ INSTALLED_APPS = [
     'core',
     'django_filters',
     'drf_spectacular',
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
@@ -52,6 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -138,8 +138,14 @@ REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "EXCEPTION_HANDLER": "core.exceptions.custom_exception_handler",    
 }
+
 SPECTACULAR_SETTINGS = {
     "TITLE": "Smart Feeder API",
     "DESCRIPTION": "API for machines, feeders, inspections, and alerts.",
     "VERSION": "1.0.0",
 }
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
