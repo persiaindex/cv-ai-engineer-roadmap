@@ -22,3 +22,9 @@ export const alerts: Alert[] = [
   { id: 1, alertId: "A-400", severity: "medium", message: "Feeder fill level is low." },
   { id: 2, alertId: "A-401", severity: "high", message: "Defect score exceeded threshold." },
 ]
+
+export const alertChartData = [
+  { name: "Low", value: 0 },
+  { name: "Medium", value: 1 },
+  { name: "High", value: 1 },
+]

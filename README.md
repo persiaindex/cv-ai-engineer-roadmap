@@ -149,3 +149,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] validation messages work
 - [X] success message works
 - [X] notes in `docs/day18_notes.md`
+
+## Day 19 status
+- [X] routing added
+- [X] table component added
+- [X] chart component added
+- [X] dashboard page created
+- [X] machines page created
+- [X] notes in `docs/day19_notes.md`

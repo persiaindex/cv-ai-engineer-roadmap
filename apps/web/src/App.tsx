@@ -1,16 +1,19 @@
-import Header from "./components/Header"
-import MachineList from "./components/MachineList"
-import AlertList from "./components/AlertList"
-import MachineForm from "./components/MachineForm"
-import { alerts, machines } from "./data/mockData"
+import { Link, Route, Routes } from "react-router-dom"
+import DashboardPage from "./pages/DashboardPage"
+import MachinesPage from "./pages/MachinesPage"
 
 function App() {
   return (
-    <div style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
-      <Header />
-      <MachineList machines={machines} />
-      <AlertList alerts={alerts} />
-      <MachineForm />
+    <div>
+      <nav style={{ padding: "1rem 2rem", borderBottom: "1px solid #ccc" }}>
+        <Link to="/" style={{ marginRight: "1rem" }}>Dashboard</Link>
+        <Link to="/machines">Machines</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<DashboardPage />} />
+        <Route path="/machines" element={<MachinesPage />} />
+      </Routes>
     </div>
   )
 }
