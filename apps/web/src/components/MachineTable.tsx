@@ -1,9 +1,4 @@
-type Machine = {
-  id: number
-  machine_id: string
-  name: string
-  location: string
-}
+import type { Machine } from "../types/machine"
 
 type MachineTableProps = {
   machines: Machine[]
@@ -19,14 +14,16 @@ function MachineTable({ machines }: MachineTableProps) {
             <th style={{ borderBottom: "1px solid #ccc", textAlign: "left" }}>Machine ID</th>
             <th style={{ borderBottom: "1px solid #ccc", textAlign: "left" }}>Name</th>
             <th style={{ borderBottom: "1px solid #ccc", textAlign: "left" }}>Location</th>
+            <th style={{ borderBottom: "1px solid #ccc", textAlign: "left" }}>Active</th>
           </tr>
         </thead>
         <tbody>
           {machines.map((machine) => (
             <tr key={machine.id}>
-              <td style={{ padding: "0.5rem 0" }}>{machine.machine_id}</td>
+              <td style={{ padding: "0.5rem 0" }}>{machine.machineId}</td>
               <td>{machine.name}</td>
               <td>{machine.location}</td>
+              <td>{machine.isActive ? "Yes" : "No"}</td>
             </tr>
           ))}
         </tbody>

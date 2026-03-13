@@ -1,3 +1,4 @@
+import ApiMessage from "../components/ApiMessage"
 import Header from "../components/Header"
 import MachineForm from "../components/MachineForm"
 import MachineTable from "../components/MachineTable"
@@ -10,8 +11,8 @@ function MachinesPage() {
     <div style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
       <Header />
 
-      {loading && <p>Loading machines...</p>}
-      {error && <p style={{ color: "red" }}>{error}</p>}
+      {loading && <ApiMessage message="Loading machines..." />}
+      {error && <ApiMessage message={error} type="error" />}
       {!loading && !error && <MachineTable machines={machines} />}
 
       <MachineForm />
