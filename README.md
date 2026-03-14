@@ -174,3 +174,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `useMachines.ts` cleaned up
 - [X] `MachinesPage.tsx` cleaned up
 - [X] notes in `docs/day21_notes.md`
+
+## Day 22 status
+- [X] `apps/api/Dockerfile` added
+- [X] `apps/web/Dockerfile` added
+- [X] `.dockerignore` files added
+- [X] backend image builds and runs
+- [X] frontend image builds and runs
+- [X] notes in `docs/day22_notes.md`
