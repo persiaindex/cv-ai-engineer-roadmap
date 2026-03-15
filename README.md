@@ -182,3 +182,13 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] backend image builds and runs
 - [X] frontend image builds and runs
 - [X] notes in `docs/day22_notes.md`
+
+## Day 23 status
+- [X] `docker-compose.yml` added
+- [X] `apps/api/.env.docker` added
+- [X] PostgreSQL driver installed
+- [X] Django configured for PostgreSQL
+- [X] full stack starts with Compose
+- [X] migrations run inside the container
+- [X] frontend and backend open in the browser
+- [X] notes in `docs/day23_notes.md`

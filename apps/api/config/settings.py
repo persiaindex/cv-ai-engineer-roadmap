@@ -149,3 +149,16 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
+
+import os
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": os.getenv("DB_NAME", "cv_ai_db"),
+        "USER": os.getenv("DB_USER", "cv_ai_user"),
+        "PASSWORD": os.getenv("DB_PASSWORD", "cv_ai_password"),
+        "HOST": os.getenv("DB_HOST", "127.0.0.1"),
+        "PORT": os.getenv("DB_PORT", "5432"),
+    }
+}
