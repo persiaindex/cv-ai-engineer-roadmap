@@ -192,3 +192,12 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] migrations run inside the container
 - [X] frontend and backend open in the browser
 - [X] notes in `docs/day23_notes.md`
+
+## Day 24 status
+- [X] `apps/api/.env.example` added
+- [X] `apps/web/.env.example` added
+- [X] `python-dotenv` installed
+- [X] Django settings read from `.env`
+- [X] frontend API URL reads from `VITE_API_BASE_URL`
+- [X] `.gitignore` handles `.env` files correctly
+- [X] notes in `docs/day24_notes.md`
