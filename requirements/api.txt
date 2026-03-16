@@ -1,7 +1,7 @@
-Django
+psycopg[binary]
+django
 djangorestframework
 django-filter
 djangorestframework-simplejwt
 drf-spectacular
 django-cors-headers
-psycopg[binary]

@@ -201,3 +201,13 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] frontend API URL reads from `VITE_API_BASE_URL`
 - [X] `.gitignore` handles `.env` files correctly
 - [X] notes in `docs/day24_notes.md`
+
+## Day 25 status
+- [X] `types/dashboard.ts` added
+- [X] `hooks/useDashboardSummary.ts` added
+- [X] `hooks/useAlerts.ts` added
+- [X] `SummaryCards.tsx` added
+- [X] dashboard uses real API data
+- [X] alerts list uses real API data
+- [X] chart uses real API data
+- [X] notes in `docs/day25_notes.md`

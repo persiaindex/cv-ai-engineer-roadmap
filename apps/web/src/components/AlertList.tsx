@@ -1,8 +1,8 @@
 import { useState } from "react"
-import type { Alert } from "../data/mockData"
+import type { AlertApiItem } from "../types/dashboard"
 
 type AlertListProps = {
-  alerts: Alert[]
+  alerts: AlertApiItem[]
 }
 
 function AlertList({ alerts }: AlertListProps) {
@@ -19,7 +19,7 @@ function AlertList({ alerts }: AlertListProps) {
         <ul style={{ marginTop: "1rem" }}>
           {alerts.map((alert) => (
             <li key={alert.id}>
-              <strong>{alert.alertId}</strong> - {alert.severity} - {alert.message}
+              <strong>{alert.alert_id}</strong> - {alert.severity} - {alert.message}
             </li>
           ))}
         </ul>

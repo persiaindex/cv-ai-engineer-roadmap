@@ -1,21 +1,21 @@
 services:
   db:
     image: public.ecr.aws/docker/library/postgres:17
-    container_name: smartfeeder-db
-    environment:
-      POSTGRES_DB: cv_ai_db
-      POSTGRES_USER: cv_ai_user
-      POSTGRES_PASSWORD: cv_ai_password
+    env_file:
+      - .env.db
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cv_ai_user -d cv_ai_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
   api:
     build:
       context: .
       dockerfile: apps/api/Dockerfile
-    container_name: smartfeeder-api
     command: python manage.py runserver 0.0.0.0:8000
     env_file:
       - apps/api/.env.docker
@@ -30,7 +30,6 @@ services:
     build:
       context: .
       dockerfile: apps/web/Dockerfile
-    container_name: smartfeeder-web
     command: npm run dev -- --host 0.0.0.0
     volumes:
       - ./apps/web:/app
