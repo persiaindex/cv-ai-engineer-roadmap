@@ -211,3 +211,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] alerts list uses real API data
 - [X] chart uses real API data
 - [X] notes in `docs/day25_notes.md`
+
+## Day 26 status
+- [X] `src/cv/cv_utils.py` added
+- [X] `src/cv/main.py` added
+- [X] `scripts/run_cv.py` added
+- [X] `tests/test_cv.py` added
+- [X] sample input and output images created
+- [X] notes in `docs/day26_notes.md`
