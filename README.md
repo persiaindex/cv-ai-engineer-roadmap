@@ -219,3 +219,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `tests/test_cv.py` added
 - [X] sample input and output images created
 - [X] notes in `docs/day26_notes.md`
+
+## Day 27 status
+- [X] `src/cv/inspection.py` added
+- [X] `scripts/run_inspection.py` added
+- [X] `tests/test_inspection.py` added
+- [X] inspection debug images created
+- [X] notes in `docs/day27_notes.md`
