@@ -1,0 +1,3 @@
+image_name,label,split,notes
+img_001_sample.png,ok,train,synthetic clean sample image
+img_002_defect.png,defect,train,synthetic defect sample image

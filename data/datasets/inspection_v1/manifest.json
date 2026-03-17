@@ -1,0 +1,14 @@
+[
+  {
+    "image_name": "img_001_sample.png",
+    "label": "ok",
+    "split": "train",
+    "image_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\data\\datasets\\inspection_v1\\images\\img_001_sample.png"
+  },
+  {
+    "image_name": "img_002_defect.png",
+    "label": "defect",
+    "split": "train",
+    "image_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\data\\datasets\\inspection_v1\\images\\img_002_defect.png"
+  }
+]

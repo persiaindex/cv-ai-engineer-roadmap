@@ -226,3 +226,12 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `tests/test_inspection.py` added
 - [X] inspection debug images created
 - [X] notes in `docs/day27_notes.md`
+
+## Day 28 status
+- [X] `data/datasets/inspection_v1/labels.csv` added
+- [X] `data/datasets/inspection_v1/dataset_card.md` added
+- [X] `src/cv/dataset_utils.py` added
+- [X] `scripts/build_dataset_manifest.py` added
+- [X] `tests/test_dataset_manifest.py` added
+- [X] `manifest.json` created
+- [X] notes in `docs/day28_notes.md`
