@@ -266,3 +266,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `tests/test_trainer.py` added
 - [X] checkpoint file created
 - [X] notes in `docs/day32_notes.md`
+
+## Day 33 status
+- [X] `src/ml/transfer_learning.py` added
+- [X] `scripts/run_transfer_learning.py` added
+- [X] `tests/test_transfer_learning.py` added
+- [X] `inspection_cls` dataset folders created
+- [X] checkpoint file created
+- [X] notes in `docs/day33_notes.md`
