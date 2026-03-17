@@ -274,3 +274,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `inspection_cls` dataset folders created
 - [X] checkpoint file created
 - [X] notes in `docs/day33_notes.md`
+
+## Day 34 status
+- [X] `src/ml/evaluation.py` added
+- [X] `scripts/run_evaluation.py` added
+- [X] `tests/test_evaluation.py` added
+- [X] `evaluation_report.json` created
+- [X] `evaluation_predictions.csv` created
+- [X] notes in `docs/day34_notes.md`
