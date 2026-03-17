@@ -251,3 +251,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `baseline_report.json` created
 - [X] annotated baseline outputs created
 - [X] notes in `docs/day30_notes.md`
+
+## Day 31 status
+- [X] `src/ml/dataset.py` added
+- [X] `src/ml/model.py` added
+- [X] `src/ml/train_demo.py` added
+- [X] `scripts/run_torch_demo.py` added
+- [X] `tests/test_torch_demo.py` added
+- [X] notes in `docs/day31_notes.md`
