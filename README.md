@@ -259,3 +259,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `scripts/run_torch_demo.py` added
 - [X] `tests/test_torch_demo.py` added
 - [X] notes in `docs/day31_notes.md`
+
+## Day 32 status
+- [X] `src/ml/trainer.py` added
+- [X] `scripts/run_training_loop.py` added
+- [X] `tests/test_trainer.py` added
+- [X] checkpoint file created
+- [X] notes in `docs/day32_notes.md`
