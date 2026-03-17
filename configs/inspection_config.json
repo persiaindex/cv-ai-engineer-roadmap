@@ -1,0 +1,9 @@
+{
+  "input_image": "data/images/inspection_input.png",
+  "output_gray": "data/output/inspection_gray_config.png",
+  "output_mask": "data/output/inspection_mask_config.png",
+  "output_cleaned": "data/output/inspection_cleaned_config.png",
+  "output_boxed": "data/output/inspection_boxed_config.png",
+  "threshold_value": 80,
+  "min_area": 50
+}
