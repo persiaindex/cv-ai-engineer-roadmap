@@ -282,3 +282,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `evaluation_report.json` created
 - [X] `evaluation_predictions.csv` created
 - [X] notes in `docs/day34_notes.md`
+
+## Day 35 status
+- [X] `projects/inspection_training_baseline/README.md` added
+- [X] `configs/training/transfer_baseline.json` added
+- [X] `scripts/run_training_project.py` added
+- [X] `tests/test_training_project.py` added
+- [X] `training_project_report.json` created
+- [X] notes in `docs/day35_notes.md`

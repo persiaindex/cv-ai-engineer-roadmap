@@ -1,0 +1,6 @@
+{
+  "dataset_root": "data/datasets/inspection_cls",
+  "checkpoint_path": "artifacts/transfer_resnet18_project.pt",
+  "evaluation_output_dir": "artifacts/evaluation_project",
+  "project_report_path": "projects/inspection_training_baseline/output/training_project_report.json"
+}
