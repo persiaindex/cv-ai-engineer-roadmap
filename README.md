@@ -243,3 +243,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `tests/test_pipeline.py` added
 - [X] config-driven output images created
 - [X] notes in `docs/day29_notes.md`
+
+## Day 30 status
+- [X] `projects/pcb_defect_baseline/README.md` added
+- [X] `scripts/run_pcb_baseline.py` added
+- [X] `tests/test_pcb_baseline.py` added
+- [X] `baseline_report.json` created
+- [X] annotated baseline outputs created
+- [X] notes in `docs/day30_notes.md`

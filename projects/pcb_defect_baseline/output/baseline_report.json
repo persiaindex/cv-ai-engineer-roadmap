@@ -1,0 +1,21 @@
+{
+  "dataset_name": "inspection_v1",
+  "image_count": 2,
+  "total_contours": 3,
+  "records": [
+    {
+      "image_name": "img_001_sample.png",
+      "label": "ok",
+      "split": "train",
+      "contour_count": 2,
+      "output_image": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\projects\\pcb_defect_baseline\\output\\boxed_img_001_sample.png"
+    },
+    {
+      "image_name": "img_002_defect.png",
+      "label": "defect",
+      "split": "train",
+      "contour_count": 1,
+      "output_image": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\projects\\pcb_defect_baseline\\output\\boxed_img_002_defect.png"
+    }
+  ]
+}
