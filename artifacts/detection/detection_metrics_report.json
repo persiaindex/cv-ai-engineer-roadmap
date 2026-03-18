@@ -1,0 +1,7 @@
+{
+  "iou_example": 0.7802777777777777,
+  "boxes_before_nms": 3,
+  "boxes_after_nms": 2,
+  "precision": 0.5,
+  "recall": 0.5
+}

@@ -4,11 +4,11 @@
     "ok"
   ],
   "sample_count": 2,
-  "accuracy": 1.0,
+  "accuracy": 0.5,
   "confusion_matrix": [
     [
-      1,
-      0
+      0,
+      1
     ],
     [
       0,
@@ -19,8 +19,8 @@
     {
       "image_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\data\\datasets\\inspection_cls\\val\\defect\\img_001_sample.png",
       "true_label": "defect",
-      "predicted_label": "defect",
-      "correct": true
+      "predicted_label": "ok",
+      "correct": false
     },
     {
       "image_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\data\\datasets\\inspection_cls\\val\\ok\\img_001_sample.png",

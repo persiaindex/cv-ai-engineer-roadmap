@@ -290,3 +290,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `tests/test_training_project.py` added
 - [X] `training_project_report.json` created
 - [X] notes in `docs/day35_notes.md`
+
+## Day 36 status
+- [X] `src/ml/detection_utils.py` added
+- [X] `scripts/run_detection_metrics.py` added
+- [X] `tests/test_detection_utils.py` added
+- [X] `detection_metrics_report.json` created
+- [X] notes in `docs/day36_notes.md`
