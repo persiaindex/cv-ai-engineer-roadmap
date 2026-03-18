@@ -331,3 +331,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `tests/test_detection_project.py` added
 - [X] `detection_project_report.json` created
 - [X] notes in `docs/day40_notes.md`
+
+## Day 41 status
+- [X] `apps/ml_service/main.py` added
+- [X] `apps/ml_service/schemas.py` added
+- [X] `apps/ml_service/service.py` added
+- [X] `tests/test_ml_service.py` added
+- [X] FastAPI service runs locally
+- [X] notes in `docs/day41_notes.md`
