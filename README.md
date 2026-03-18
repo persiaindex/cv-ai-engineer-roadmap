@@ -315,3 +315,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `tests/test_detection_strategy.py` added
 - [X] `fine_tune_strategy_report.json` created
 - [X] notes in `docs/day38_notes.md`
+
+## Day 39 status
+- [X] `src/ml/onnx_export.py` added
+- [X] `scripts/run_onnx_benchmark.py` added
+- [X] `tests/test_onnx_export.py` added
+- [X] `transfer_resnet18.onnx` created
+- [X] `onnx_benchmark_report.json` created
+- [X] notes in `docs/day39_notes.md`

@@ -4,8 +4,8 @@
     "defect",
     "ok"
   ],
-  "train_loss": 1.4049474000930786,
-  "val_loss": 1.161905288696289,
+  "train_loss": 0.6180587410926819,
+  "val_loss": 0.663871705532074,
   "checkpoint_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\artifacts\\transfer_resnet18_project.pt",
   "evaluation_accuracy": 0.5,
   "evaluation_report_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\artifacts\\evaluation_project\\evaluation_report.json",
