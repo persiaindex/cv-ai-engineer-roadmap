@@ -1,0 +1,9 @@
+{
+  "input_image": "data/detection/input/sample_scene.jpg",
+  "annotated_output": "data/detection/output/sample_scene_detected.jpg",
+  "detection_json": "data/detection/output/sample_scene_detections.json",
+  "metrics_report": "artifacts/detection/detection_metrics_report.json",
+  "strategy_report": "artifacts/detection/fine_tune_strategy_report.json",
+  "onnx_report": "artifacts/onnx/onnx_benchmark_report.json",
+  "project_report": "projects/inspection_detection_baseline/output/detection_project_report.json"
+}

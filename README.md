@@ -323,3 +323,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `transfer_resnet18.onnx` created
 - [X] `onnx_benchmark_report.json` created
 - [X] notes in `docs/day39_notes.md`
+
+## Day 40 status
+- [X] `projects/inspection_detection_baseline/README.md` added
+- [X] `configs/detection/detection_project.json` added
+- [X] `scripts/run_detection_project.py` added
+- [X] `tests/test_detection_project.py` added
+- [X] `detection_project_report.json` created
+- [X] notes in `docs/day40_notes.md`

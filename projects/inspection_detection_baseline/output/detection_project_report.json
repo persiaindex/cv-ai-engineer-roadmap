@@ -1,0 +1,17 @@
+{
+  "project_name": "inspection_detection_baseline",
+  "input_image": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\data\\detection\\input\\sample_scene.jpg",
+  "annotated_output_exists": true,
+  "detection_count": 3,
+  "boxes_after_nms": 2,
+  "precision": 0.5,
+  "recall": 0.5,
+  "ready_for_tiny_finetune": true,
+  "onnx_same_prediction": true,
+  "linked_reports": {
+    "detection_json": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\data\\detection\\output\\sample_scene_detections.json",
+    "metrics_report": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\artifacts\\detection\\detection_metrics_report.json",
+    "strategy_report": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\artifacts\\detection\\fine_tune_strategy_report.json",
+    "onnx_report": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\artifacts\\onnx\\onnx_benchmark_report.json"
+  }
+}
