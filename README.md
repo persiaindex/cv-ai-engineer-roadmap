@@ -297,3 +297,11 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `tests/test_detection_utils.py` added
 - [X] `detection_metrics_report.json` created
 - [X] notes in `docs/day36_notes.md`
+
+## Day 37 status
+- [X] `src/ml/detector_inference.py` added
+- [X] `scripts/run_pretrained_detection.py` added
+- [X] `tests/test_detector_inference.py` added
+- [X] annotated detection image created
+- [X] detection JSON report created
+- [X] notes in `docs/day37_notes.md`

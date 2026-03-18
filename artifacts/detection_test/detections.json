@@ -1,0 +1,21 @@
+{
+  "image_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\data\\detection\\input\\sample_scene.jpg",
+  "detection_count": 1,
+  "detections": [
+    {
+      "label_id": 44,
+      "label_name": "bottle",
+      "score": 0.9,
+      "box": [
+        10.0,
+        10.0,
+        50.0,
+        80.0
+      ],
+      "image_size": [
+        320,
+        240
+      ]
+    }
+  ]
+}

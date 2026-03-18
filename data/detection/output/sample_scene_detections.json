@@ -1,0 +1,51 @@
+{
+  "image_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\data\\detection\\input\\sample_scene.jpg",
+  "detection_count": 3,
+  "detections": [
+    {
+      "label_id": 44,
+      "label_name": "bottle",
+      "score": 0.9470091462135315,
+      "box": [
+        6916.9267578125,
+        2636.99560546875,
+        7898.1923828125,
+        5494.67041015625
+      ],
+      "image_size": [
+        8938,
+        6124
+      ]
+    },
+    {
+      "label_id": 44,
+      "label_name": "bottle",
+      "score": 0.883051872253418,
+      "box": [
+        3908.25927734375,
+        2501.19091796875,
+        4781.8125,
+        5600.64599609375
+      ],
+      "image_size": [
+        8938,
+        6124
+      ]
+    },
+    {
+      "label_id": 44,
+      "label_name": "bottle",
+      "score": 0.8651033639907837,
+      "box": [
+        995.6298828125,
+        684.048583984375,
+        3157.840576171875,
+        5227.34326171875
+      ],
+      "image_size": [
+        8938,
+        6124
+      ]
+    }
+  ]
+}
