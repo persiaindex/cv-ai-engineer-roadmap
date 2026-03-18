@@ -1,0 +1,5 @@
+path: data/datasets/detection_tiny
+train: images/train
+val: images/val
+names:
+  0: defect_like_object

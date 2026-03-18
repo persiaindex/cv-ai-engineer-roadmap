@@ -1,0 +1,16 @@
+{
+  "target_model": "yolov8n or similar nano detector",
+  "image_size": 640,
+  "epochs": 10,
+  "batch_size": 4,
+  "device_strategy": "cpu local for checks, cloud only for final fine-tune if needed",
+  "notes": "Tiny subset for structure validation and low-cost fine-tuning strategy.",
+  "structure_report": {
+    "dataset_yaml_exists": true,
+    "train_image_count": 1,
+    "val_image_count": 1,
+    "train_label_count": 1,
+    "val_label_count": 1,
+    "ready_for_tiny_finetune": true
+  }
+}

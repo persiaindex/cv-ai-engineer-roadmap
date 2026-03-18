@@ -305,3 +305,13 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] annotated detection image created
 - [X] detection JSON report created
 - [X] notes in `docs/day37_notes.md`
+
+## Day 38 status
+- [X] `data/datasets/detection_tiny/` structure created
+- [X] `data/datasets/detection_tiny/data.yaml` added
+- [X] `configs/detection/fine_tune_tiny.json` added
+- [X] `src/ml/detection_strategy.py` added
+- [X] `scripts/build_detection_strategy.py` added
+- [X] `tests/test_detection_strategy.py` added
+- [X] `fine_tune_strategy_report.json` created
+- [X] notes in `docs/day38_notes.md`
