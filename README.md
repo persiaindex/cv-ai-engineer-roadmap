@@ -346,3 +346,10 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `tests/test_ml_service.py` expanded
 - [X] docs UI shows improved schema information
 - [X] notes in `docs/day42_notes.md`
+
+## Day 43 status
+- [X] `apps/ml_service/benchmark.py` added
+- [X] `scripts/run_ml_benchmark.py` added
+- [X] `tests/test_ml_benchmark.py` added
+- [X] `ml_benchmark_report.json` created
+- [X] notes in `docs/day43_notes.md`

@@ -1,0 +1,15 @@
+{
+  "model_name": "tiny_classifier",
+  "device": "cpu",
+  "preprocessing_average_seconds": 1.6286001191474497e-06,
+  "batch_1": {
+    "batch_size": 1,
+    "average_seconds": 1.5631000278517603e-05,
+    "throughput_samples_per_second": 63975.43229362907
+  },
+  "batch_4": {
+    "batch_size": 4,
+    "average_seconds": 1.2719000515062363e-05,
+    "throughput_samples_per_second": 314490.12013664405
+  }
+}
