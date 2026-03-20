@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 
 from .schemas import HealthResponse, MetadataResponse, PredictRequest, PredictResponse
 from .service import get_metadata, predict_from_features
@@ -19,8 +19,5 @@ def metadata() -> MetadataResponse:
 
 @app.post("/predict", response_model=PredictResponse)
 def predict(request: PredictRequest) -> PredictResponse:
-    try:
-        result = predict_from_features(request.features)
-        return PredictResponse(**result)
-    except ValueError as error:
-        raise HTTPException(status_code=400, detail=str(error)) from error
+    result = predict_from_features(request.features)
+    return PredictResponse(**result)

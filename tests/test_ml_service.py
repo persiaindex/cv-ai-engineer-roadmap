@@ -29,6 +29,7 @@ def test_metadata_endpoint() -> None:
     payload = response.json()
     assert payload["model_name"] == "tiny_classifier"
     assert payload["input_dim"] == 4
+    assert payload["class_names"] == ["ok", "defect"]
 
 
 
@@ -44,4 +45,10 @@ def test_predict_endpoint_returns_prediction() -> None:
 
 def test_predict_endpoint_rejects_wrong_length() -> None:
     response = client.post("/predict", json={"features": [0.1, 0.2]})
-    assert response.status_code == 400
+    assert response.status_code == 422
+
+
+
+def test_predict_endpoint_rejects_non_numeric_values() -> None:
+    response = client.post("/predict", json={"features": [0.1, "bad", 0.1, 0.0]})
+    assert response.status_code == 422

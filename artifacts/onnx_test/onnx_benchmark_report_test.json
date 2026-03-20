@@ -2,8 +2,8 @@
   "image_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\data\\datasets\\inspection_cls\\val\\defect\\img_001_sample.png",
   "checkpoint_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\artifacts\\transfer_resnet18.pt",
   "onnx_path": "C:\\Users\\khedr\\Desktop\\AI_Roadmap\\Repositories\\cv-ai-engineer-roadmap-dev\\cv-ai-engineer-roadmap\\artifacts\\onnx_test\\transfer_resnet18_test.onnx",
-  "pytorch_time_seconds": 0.012035299994749948,
-  "onnx_time_seconds": 0.053636500000720844,
+  "pytorch_time_seconds": 0.03429169999435544,
+  "onnx_time_seconds": 0.0035099000087939203,
   "pytorch_predicted_class": 1,
   "onnx_predicted_class": 1,
   "same_prediction": true
