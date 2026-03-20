@@ -1,8 +1,21 @@
 from rest_framework import serializers
 
-from .models import Alert, Feeder, Inspection, Machine
+
+from .models import Alert, Feeder, Inspection, Machine, MLPrediction
 
 
+class MLPredictionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MLPrediction
+        fields = [
+            "id",
+            "inspection",
+            "predicted_class",
+            "predicted_label",
+            "probability_ok",
+            "probability_defect",
+            "created_at",
+        ]
 class MachineSerializer(serializers.ModelSerializer):
     class Meta:
         model = Machine

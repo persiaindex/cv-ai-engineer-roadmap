@@ -36,7 +36,7 @@ if load_dotenv:
 
 SECRET_KEY = os.getenv("SECRET_KEY", "django-insecure-dev-key")
 DEBUG = os.getenv("DEBUG", "1") == "1"
-
+ML_SERVICE_URL = os.getenv("ML_SERVICE_URL", "http://127.0.0.1:8001")
 ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
 cors_origins = os.getenv("CORS_ALLOWED_ORIGINS", "")

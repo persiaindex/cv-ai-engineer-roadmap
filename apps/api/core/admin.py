@@ -1,6 +1,8 @@
 from django.contrib import admin
 
-from .models import Alert, Feeder, Inspection, Machine
+from .models import Alert, Feeder, Inspection, Machine,  MLPrediction
+
+admin.site.register(MLPrediction)
 
 
 @admin.register(Machine)

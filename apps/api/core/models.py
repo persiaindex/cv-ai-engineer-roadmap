@@ -1,6 +1,15 @@
 from django.db import models
 
+class MLPrediction(models.Model):
+    inspection = models.OneToOneField("Inspection", on_delete=models.CASCADE, related_name="ml_prediction")
+    predicted_class = models.IntegerField()
+    predicted_label = models.CharField(max_length=50)
+    probability_ok = models.FloatField()
+    probability_defect = models.FloatField()
+    created_at = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self) -> str:
+        return f"Prediction for {self.inspection.inspection_id}: {self.predicted_label}"
 class Machine(models.Model):
     machine_id = models.CharField(max_length=20, unique=True)
     name = models.CharField(max_length=100)
@@ -58,3 +67,4 @@ class Alert(models.Model):
 
     def __str__(self) -> str:
         return f"{self.alert_id} - {self.severity}"
+

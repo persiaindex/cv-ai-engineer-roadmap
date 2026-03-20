@@ -1,4 +1,11 @@
 
+from rest_framework import status
+
+from .ml_client import call_ml_service
+from .models import MLPrediction
+from .serializers import MLPredictionSerializer
+
+from rest_framework import status
 from rest_framework import viewsets
 from rest_framework.decorators import action, api_view, permission_classes
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
@@ -34,7 +41,31 @@ class InspectionViewSet(viewsets.ModelViewSet):
     filterset_fields = ["status", "machine"]
     search_fields = ["inspection_id", "status", "machine__machine_id"]
     ordering_fields = ["created_at", "defect_score", "inspection_id"]
+    @action(detail=True, methods=["post"], url_path="predict")
+    def predict(self, request, pk=None):
+        inspection = self.get_object()
 
+        features = [
+            float(inspection.defect_score),
+            1.0 if inspection.status == "defective" else 0.0,
+            1.0 if inspection.status == "review" else 0.0,
+            1.0 if inspection.status == "ok" else 0.0,
+        ]
+
+        ml_result = call_ml_service(features)
+
+        prediction, _ = MLPrediction.objects.update_or_create(
+            inspection=inspection,
+            defaults={
+                "predicted_class": ml_result["predicted_class"],
+                "predicted_label": ml_result["predicted_label"],
+                "probability_ok": ml_result["probabilities"][0],
+                "probability_defect": ml_result["probabilities"][1],
+            },
+        )
+
+        serializer = MLPredictionSerializer(prediction)
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
 class AlertViewSet(viewsets.ModelViewSet):
     queryset = Alert.objects.all().order_by("-created_at")
