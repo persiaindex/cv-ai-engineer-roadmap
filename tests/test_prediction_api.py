@@ -1,5 +1,6 @@
 from unittest.mock import patch
 
+from django.contrib.auth import get_user_model
 from django.urls import reverse
 from django.utils import timezone
 from rest_framework import status
@@ -8,8 +9,14 @@ from rest_framework.test import APITestCase
 from core.models import Inspection, Machine
 
 
+User = get_user_model()
+
+
 class PredictionApiTests(APITestCase):
     def setUp(self) -> None:
+        self.user = User.objects.create_user(username="tester", password="testpass123")
+        self.client.force_authenticate(user=self.user)
+
         self.machine = Machine.objects.create(
             machine_id="M-900",
             name="Prediction Machine",

@@ -353,3 +353,12 @@ This repository documents my 16-week employment-first roadmap toward Applied AI 
 - [X] `tests/test_ml_benchmark.py` added
 - [X] `ml_benchmark_report.json` created
 - [X] notes in `docs/day43_notes.md`
+
+## Day 44 status
+- [X] `apps/api/core/ml_client.py` added
+- [X] `MLPrediction` model added
+- [X] prediction serializer added
+- [X] inspection predict endpoint added
+- [X] `tests/test_prediction_api.py` added
+- [X] prediction results can be stored and returned
+- [X] notes in `docs/day44_notes.md`
