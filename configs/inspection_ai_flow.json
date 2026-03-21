@@ -1,0 +1,7 @@
+{
+  "backend_predict_endpoint_example": "http://127.0.0.1:8000/api/inspections/1/predict/",
+  "ml_service_predict_endpoint": "http://127.0.0.1:8001/predict",
+  "ml_service_health_endpoint": "http://127.0.0.1:8001/health",
+  "benchmark_report": "artifacts/ml_service/ml_benchmark_report.json",
+  "project_report": "projects/inspection_ai_flow/output/inspection_ai_flow_report.json"
+}

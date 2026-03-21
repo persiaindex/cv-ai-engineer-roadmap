@@ -1,0 +1,21 @@
+{
+  "project_name": "inspection_ai_flow",
+  "backend_predict_endpoint_example": "http://127.0.0.1:8000/api/inspections/1/predict/",
+  "ml_service_predict_endpoint": "http://127.0.0.1:8001/predict",
+  "ml_service_health_endpoint": "http://127.0.0.1:8001/health",
+  "benchmark_report_exists": true,
+  "ml_service_device": "cpu",
+  "batch_1_throughput": 63975.43229362907,
+  "batch_4_throughput": 314490.12013664405,
+  "feature_summary": [
+    "inspection defect_score",
+    "is_defective flag",
+    "is_review flag",
+    "is_ok flag"
+  ],
+  "stored_output_model": "MLPrediction",
+  "connected_services": [
+    "django_api",
+    "fastapi_ml_service"
+  ]
+}
